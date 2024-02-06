@@ -1,0 +1,21 @@
+ls	list the file
+cd	change work directory
+pwd	current directory check
+mkdir dir1,dir2,dir3	create directory
+rm  filename	remove files
+mv file1.txt ./dir2	move the files one directory to another directory
+cp file.txt ./dir1	copy file from one directory to another directory
+touch file3.txt	create file
+nano file3.txt	edit the file
+vi file7.txt	edit the file
+cat file7.txt	view the content of the file
+grep hello file7.txt	search string in a file
+head -n 2 file7.txt	dispaly the first lines in the file
+tail -3 file.txt	display the last lines in the file
+sudo useradd username	add the user as su or with root permission
+chmod	modify direcory or file permission
+chown	change the permission of file or directory
+useradd username	add new user
+df -m file7.txt	check linux diskspace and usage
+du -k file7.txt-	check the storage consumption
+uname -a	show all the system information
