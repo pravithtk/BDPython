@@ -151,11 +151,109 @@
 
 
 #
-pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
-pairs.sort(key=lambda pair: pair[1])
-pairs
-[(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
-print(pairs)
+# pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+# pairs.sort(key=lambda pair: pair[1])
+# pairs
+# [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+# print(pairs)
+
+
+#
+# def f(ham: str, eggs: str = 'eggs') -> str:
+#     print("Annotations:", f.__annotations__)
+#     print("Arguments:", ham, eggs)
+#     return ham + ' and ' + eggs
+
+# f('spam')
+
+
+#####5
+
+# fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+# fruits.count('apple')
+# 2
+# fruits.count('tangerine')
+# 0
+# fruits.index('banana')
+# 3
+# fruits.index('banana', 4)  # Find next banana starting at position 4
+# 6
+# fruits.reverse()
+# fruits
+# ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
+# fruits.append('grape')
+# fruits
+# ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
+# fruits.sort()
+# fruits
+# ['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
+# fruits.pop()
+# 'pear'
+# print(fruits)
+
+#--------------Using Lists as Stacks¶
+
+# stack = [3, 4, 5]
+# stack.append(6)
+# stack.append(7)
+# stack
+# [3, 4, 5, 6, 7]
+# stack.pop()
+# 7
+# stack
+# [3, 4, 5, 6]
+# stack.pop()
+# 6
+# stack.pop()
+# 5
+# stack
+# [3, 4]
+# print(stack)
+
+#List Comprehensions
+# squares = []
+# for x in range(10):
+#     squares.append(x**2)
+
+# print(squares)
+
+
+# matrix = [
+#     [1, 2, 3, 4],
+#     [5, 6, 7, 8],
+#     [9, 10, 11, 12],
+# ]
+# # The following list comprehension will transpose rows and columns:
+
+# [[row[i] for row in matrix] for i in range(4)]
+
+# print(matrix)
+
+############
+# a = [-1, 1, 66.25, 333, 333, 1234.5]
+# del a[0]
+# print(a)
+
+# a = [-1, 1, 66.25, 333, 333, 1234.5]
+# del a[2:4]
+# print(a)
+
+# # del a[:]
+# # a
+
+# #
+# t = 12345, 54321, 'hello!'
+# t[0]
+
+# print(t)
+
+# # Tuples may be nested:
+t = 12345, 54321, 'hello!'
+u = t, (1, 2, 3, 4, 5)
+print(u)
+
+
+
 
 
 
